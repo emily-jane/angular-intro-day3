@@ -7,7 +7,7 @@ module.exports = function(grunt){
 
     watch: {
       files: ['**/*'],
-      tasks: ['jshint'],   
+      tasks: ['jshint']   
     }
 
   });

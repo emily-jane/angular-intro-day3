@@ -24,6 +24,11 @@ describe('GitUserSearchController', function() {
         );
     }));
 
+    afterEach(function() {
+      httpBackend.verifyNoOutstandingExpectation();
+      httpBackend.verifyNoOutstandingRequest();
+    });
+
     items = [
       {
         "login": "tansaku",
