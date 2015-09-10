@@ -26,6 +26,6 @@ describe('factory: Search', function() {
       .then(function(response) {
         expect(response.data.items).toEqual(items);
       });
-    httpBackend.flush();  
+    httpBackend.flush();
   });
-})
+});
