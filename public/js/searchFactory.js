@@ -14,7 +14,8 @@ githubUserSearch.factory('Search', ['$http', function($http) {
         url: queryUrl,
         method: 'GET',
         params: {
-          'q': searchTerm, access_token: self.token.access_token
+          'q': searchTerm, 
+          'access_token': self.token.access_token
         }
       }); 
     }
